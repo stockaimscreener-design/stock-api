@@ -104,6 +104,7 @@ def get_quote():
     
     return jsonify(response)
 
-if __name__ == '__main__':
-    # For local testing
-    app.run(debug=True, host='0.0.0.0', port=5000)
+#commented out to prevent auto-execution during imports and vercel deployments
+# if __name__ == '__main__':
+#     # For local testing
+#     app.run(debug=True, host='0.0.0.0', port=5000)
